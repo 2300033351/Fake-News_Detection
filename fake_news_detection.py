@@ -8,7 +8,7 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load dataset (downloaded from Kaggle or hosted online)
-url = "https://raw.githubusercontent.com/NandireddySravanthi/datasets/main/fake_or_real_news.csv"
+url = "https://raw.githubusercontent.com/AvulaVedaNandini/datasets/main/fake_or_real_news.csv"
 df = pd.read_csv(url)
 
 # Display dataset info
